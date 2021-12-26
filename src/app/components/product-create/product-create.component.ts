@@ -31,7 +31,7 @@ export class ProductCreateComponent implements OnInit {
       .subscribe(
         response => {
           console.log(response);
-          this.submitted = true;
+          this.submitted=true;
         },
         error => {
           console.log(error);

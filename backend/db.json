@@ -31,6 +31,16 @@
       "name": "Banana ",
       "description": "Fruit",
       "id": 8
+    },
+    {
+      "name": "Apple",
+      "description": "Fruit",
+      "id": 11
+    },
+    {
+      "name": "Dog",
+      "description": "Animal",
+      "id": 12
     }
   ]
 }
