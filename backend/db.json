@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "name": "Mango",
+      "description": "Tropicana",
+      "available": true,
+      "id": 3
+    },
+    {
+      "name": "Mixed Fruit",
+      "description": "Tropicana",
+      "id": 4
+    },
+    {
+      "name": "Lichi",
+      "description": "Tropicana",
+      "id": 5,
+      "available": false
+    },
+    {
+      "name": "Pineapple",
+      "description": "Tropicana",
+      "id": 6
+    },
+    {
+      "name": "Coca Cola",
+      "description": "Cold Drink",
+      "id": 7
+    },
+    {
+      "name": "Banana ",
+      "description": "Fruit",
+      "id": 8
+    }
+  ]
+}

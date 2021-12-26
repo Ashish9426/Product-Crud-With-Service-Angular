@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="card" *ngIf="!submitted">
+      <div class="card-header">
+        <h4>Product Entry</h4>
+      </div>
+
+      <div class="submit-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" required [(ngModel)]="product.name" name="name" />
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description</label>
+          <input class="form-control" id="description" [(ngModel)]="product.description" name="description" />
+        </div>
+
+        <button (click)="createProduct()" class="btn btn-success">Create</button>
+
+      </div>
+
+      <div *ngIf="submitted">
+        <h3>You successfully created a product!</h3>
+        <button class="btn btn-success" (click)="newProduct()">New..</button>
+        <button class="btn btn-primary" routerLink="/products/">Show List</button>
+      </div>
+    </div>
+  </div>
+</div>
